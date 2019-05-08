@@ -28,7 +28,7 @@ import io.restassured.response.Response;
 public class OpenWeatherMap {
 	private static Logger log = LogManager.getLogger(OpenWeatherMap.class.getName());
 	private String zip;
-	OpenWeatherMap(String zip) {
+	public OpenWeatherMap(String zip) {
 		this.zip = zip;
 	}
 	/**
